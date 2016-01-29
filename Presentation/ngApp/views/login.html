@@ -1,0 +1,14 @@
+﻿<form class="vertical-center" ng-submit="controller.login(userName, password)">
+    <h1>
+        Stock Tracker
+    </h1>
+    <input ng-model="userName" placeholder="User Name" class="form-control" />
+    <input ng-model="password" type="password" placeholder="Password" class="form-control" />
+    <input type="submit" class="form-control btn btn-success" value="Login" />
+    <p>
+        Or create a <a href="#/register">new account</a>
+    </p>
+    <br />
+    <br />
+    <input ng-click="controller.logout()" type="submit" class="form-control btn btn-danger" value="Logout" />
+</form>

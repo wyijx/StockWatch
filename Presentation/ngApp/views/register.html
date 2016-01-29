@@ -1,0 +1,14 @@
+﻿<form class="vertical-center" ng-submit="controller.register(user)">
+    <h1>
+        New Account
+    </h1>
+    <input ng-model="user.userName" placeholder="User Name" class="form-control" />
+    <input ng-model="user.email" placeholder="Email Address" class="form-control" />
+    <input ng-model="user.password" type="password" placeholder="Password" class="form-control" />
+    <input ng-model="user.confirmPassword" type="password" placeholder="Confirm Password" class="form-control" />
+
+    <input type="submit" class="form-control btn btn-success" value="Register" />
+    <p>
+        Or <a href="#/login">log in</a> to an existing account.
+    </p>
+</form>
